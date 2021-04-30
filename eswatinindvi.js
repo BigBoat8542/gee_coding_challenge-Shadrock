@@ -4,7 +4,7 @@ Luke Watson-Sharer
 Assignment 2
 Comp prog GIS
 */
-
+// GEE link https://code.earthengine.google.com/66ff191e80a00fd4c8158e569aea4578
 var col = ee.ImageCollection('MODIS/006/MOD13A2').select('NDVI');
 
 // Define a mask to clip the NDVI data by.
